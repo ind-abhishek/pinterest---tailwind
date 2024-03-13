@@ -5,7 +5,7 @@ This project is a Pinterest-like platform where users can share and discover cre
 ## Preview 
 [Insert Preview Image or GIF Here]
 
-## How to Run 🏃‍♂️
+## How to Run 
 To run this project locally, follow these steps:
 
 1. Clone the repository:
