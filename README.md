@@ -1,11 +1,12 @@
-# Pinterest-like Project 
 
-This project is a Pinterest-like platform where users can share and discover creative content. It is built using EJS, Node.js, Express, and MongoDB.
+# Pinterest-like Project
 
-## Preview 
-[Insert Preview Image or GIF Here]
+This project is a Pinterest-like platform where users can share and discover creative content. It is built using EJS, Node.js, Express, and MongoDB. 📌
 
-## How to Run 
+## Preview
+[Insert Preview Image or GIF Here] 🖼️
+
+## How to Run
 To run this project locally, follow these steps:
 
 1. Clone the repository:
@@ -30,16 +31,15 @@ To run this project locally, follow these steps:
 
 5. Open your web browser and visit `http://localhost:3000` to view the application.
 
-## Dependencies 
+## Dependencies
 - EJS
 - Node.js
 - Express
 - MongoDB
 
-## Features ✨
+## Features
 - User registration
 - Image uploads
 - Post creation
 - Personalized feed
 - Responsive design for optimal user experience
-```
