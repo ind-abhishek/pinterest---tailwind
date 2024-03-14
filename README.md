@@ -11,7 +11,7 @@ To run this project locally, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your/repository.git
+   git clone [https://github.com/your/repository.git](https://github.com/ind-abhishek/pinterest-tailwind)
    ```
 
 2. Navigate to the project directory:
