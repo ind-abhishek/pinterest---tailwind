@@ -61,7 +61,7 @@ router.post(
 );
 
 router.get("/add", isLoggedIn, function (req, res) {
-  res.render("add", { nav: true, error: req.flash("error") });
+  res.render("add", { nav: true, error: req.flash("error"), user: req.user });
 });
 
 router.post(
