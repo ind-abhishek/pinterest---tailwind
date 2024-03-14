@@ -1,17 +1,20 @@
 <% include ./partials/header.ejs %>
-  <div class="w-full min-h-screen bg-zinc-800 px-10 py-8 text-white">
-    <div class="cards flex flex-wrap gap-10">
+  <div class="w-full min-h-screen bg-white px-10 py-8 text-white">
+    <div class="cards flex flex-wrap gap-7 ">
       <% posts.forEach(function(post){ %>
-        <div class="cards w-50">
-          <div class="w-full bg-zinc-800 h-40 rounded-lg overflow-hidden">
-            <img class="w-full h-full object-cover" src="/images/uploads/<%= post.postimage %>">
+        <div class="cards w-60 m-6">
+          <div class="bg-red-100 rounded-xl">
+            <div class="w-full  h-45 rounded-xl overflow-hidden">
+              <img class="w-full h-full object-cover" src="/images/uploads/<%= post.postimage %>">
+            </div>
+            <div class="flex mt-3 pb-3 ml-1">
+              <img class="w-9 h-9 object-cover rounded-full" src="/images/uploads/<%= post.user.profileImage %>"
+                alt="Profile">
+              <h5 class="mt-2 text-sm font-semibold text-black ml-2">
+                <%= post.title %>
+              </h5>
+            </div>
           </div>
-          <h5 class="mt-2 text-sm">
-            <%= post.title %>
-          </h5>
-          <h6 class=" ">
-            @<%= post.user.username %>
-          </h6>
         </div>
         <% })%>
     </div>
