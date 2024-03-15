@@ -31,7 +31,7 @@ To run this project locally, follow these steps:
 
 2. Navigate to the project directory:
    ```bash
-   cd pinterest-like-project
+   cd pinterest-tailwind
    ```
 
 3. Install dependencies using npm:
@@ -44,7 +44,14 @@ To run this project locally, follow these steps:
    npm start
    ```
 
+
 5. Open your web browser and visit `http://localhost:3000` to view the application.
+
+
+6. copy and install these package in tarminal if anything not working fine:
+   ```bash
+   npm install mongoose express-session connect-flash passport passport-local passport-local-mongoose uuid multer
+   ```
 
 ## Dependencies
 - EJS
